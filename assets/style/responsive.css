@@ -1,0 +1,74 @@
+/* Add this section at the end of your existing CSS */
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-menu ul,
+  .navbar-action ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar .logo {
+    font-size: 18px;
+  }
+
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+
+  .jumbotron h3 {
+    font-size: 18px;
+    margin: 1rem;
+  }
+
+  .jumbotron button {
+    padding: 0.8rem 2rem;
+  }
+
+  .about .title,
+  .feature .title,
+  .system-req .content,
+  .quotes .content,
+  .contact .main {
+    padding: 2rem;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .list .name,
+  .grid-item .title,
+  .contact input,
+  .contact button {
+    font-size: 16px;
+  }
+
+  .quotes p {
+    font-size: 14px;
+  }
+
+  .contact h1 {
+    font-size: 40px;
+  }
+
+  .feature .content,
+  .system-req .grid,
+  .quotes .content,
+  .contact .main {
+    padding: 1rem;
+  }
+
+  .system-req .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact .menu ul {
+    flex-direction: column;
+    align-self: stretch;
+  }
+}
